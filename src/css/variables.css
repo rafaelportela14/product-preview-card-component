@@ -1,0 +1,15 @@
+:root{
+    --priDarkCyan:rgb(60, 128, 103);
+    --priCream:rgb(242, 235, 227);
+
+    --neutDarkBlue:rgb(28, 35, 43);
+    --neutDarkGray:rgb(108, 114, 137);
+    --neutWhite: rgb(255, 255, 255);
+
+    --font: 14px;
+    --mobile:375px;
+    --desktop:1440px;
+    --montserrat: 'Montserrat',sans-serif;
+    --fraunces: 'Fraunces',sans-serif;
+
+}   

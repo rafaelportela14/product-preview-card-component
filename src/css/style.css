@@ -1,0 +1,121 @@
+/* Fontes: */
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    width: 100%;
+    background-color: var(--priCream);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container {
+    width: 600px;
+    height: 447px;
+    background-color: var(--neutWhite);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+}
+
+.container .card-image img{
+    width: 297px;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.container .produto-detalhes {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    margin-right: 28px;
+    height: auto;
+}
+
+.produto-detalhes h3 {
+    color: var(--neutDarkGray);
+    font-family: var(--montserrat);
+    font-weight: 500;
+    letter-spacing: 5px;
+    font-size: 12px;
+
+}
+
+.produto-detalhes h1 {
+    color: var(--neutDarkBlue);
+    font-family: var(--fraunces);
+
+}
+
+.produto-detalhes p {
+    color: var(--neutDarkGray);
+    font-family: var(--montserrat);
+    font-size: var(-font);
+    font-weight: 500;
+
+}
+
+.produto-detalhes .preco {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.produto-detalhes .preco h1 {
+    color: var(--priDarkCyan);
+
+}
+
+
+.produto-detalhes .preco small {
+    text-decoration: line-through;
+    color: var(--neutDarkBlue);
+
+}
+
+.produto-detalhes .carrinho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--priDarkCyan);
+    width: 100%;
+    height: 47px;
+    border-radius: 10px;
+    pad: 1rem;
+    gap: 10px;
+    color: var(--neutWhite);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.produto-detalhes .carrinho p{
+    color: var(--neutWhite);
+    padding-top: 12px;
+    padding-right: 30px;
+}
+
+.produto-detalhes .carrinho:hover {
+    background-color: var(--neutDarkBlue);
+    
+}
+
+.produto-detalhes .carrinho svg {
+    width: 30px;
+}
